@@ -178,34 +178,6 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.maven.shared</groupId>
-                <artifactId>maven-shared-utils</artifactId>
-                <version>0.4</version>
-    </dependency>
-          <dependency>
-                <groupId>org.codehaus.plexus</groupId>
-                <artifactId>plexus-utils</artifactId>
-                <version>3.0.15</version>
-    </dependency>
-            <dependency>
-                <groupId>net.serenity-bdd</groupId>
-                <artifactId>serenity-core</artifactId>
-                <version>${serenity.version}</version>
-                <scope>compile</scope>
-      </dependency>
-            <dependency>
-        <groupId>net.serenity-bdd</groupId>
-        <artifactId>serenity-rest-assured</artifactId>
-        <version>${serenity.version}</version>
-        <scope>compile</scope>
-    </dependency>
-            <dependency>
-        <groupId>net.serenity-bdd</groupId>
-        <artifactId>serenity-cucumber</artifactId>
-        <version>${serenity.cucumber.version}</version>
-        <scope>compile</scope>
-    </dependency>
-            <dependency>
                 <groupId>org.easyb</groupId>
                 <artifactId>easyb-core</artifactId>
                 <version>${easyb.version}</version>
